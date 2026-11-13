@@ -407,7 +407,7 @@ void loop(){
             lcd.print(" presse !");
             delay(1000);
           }
-          for(int i=0;i<4;i++){
+          for(int i=0;i<5;i++){
             if(codeSaisiButton[i]!=codeSecretButton[i]){
               codeValide=false;
               break;

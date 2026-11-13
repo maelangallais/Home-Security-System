@@ -44,11 +44,9 @@ Designed for **Arduino Mega 2560** (uses pins up to `53`):
 - `SPI` (built-in)
 - `MFRC522` (RFID)
 
-## ⚠️ Notes & Limitations
+## ⚠️ Notes
 
 - **Default Credentials**: Example RFID UIDs (`UIDbadge`, `UIDcarte`) and default passcodes (`1234` for keypad/remote, `12345` for buttons) are hardcoded in `home_security.ino` and should be customized before deployment.
-- **Sequential Execution**: Actions run sequentially without multitasking; as noted in the sketch, the Active Buzzer tone library conflicts with `IRremote`.
-- **Stage 4 Check**: The button-sequence verification loop checks the first 4 entries (`i < 4`) of the 5-button array.
 
 ## 🛠️ Details
 
